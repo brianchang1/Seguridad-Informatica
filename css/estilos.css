@@ -1,0 +1,127 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+	background: #005883;
+	<!--background-image: url('../img/fondo.jpg');--> 
+	
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#contenedor{
+	width: 1200px;
+	margin: auto;
+	margin-top: 10px; 
+	border-radius: 20px; 
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+header {
+	background: #FFFFFF;
+	height: 60%;
+	float: left;
+}
+
+nav{
+	background: #999999;
+	height: 40px;
+}
+
+nav li{
+
+	list-style: none;
+	display: inline-block;
+	padding: 10px 45px;
+}
+
+nav a{
+	color: #000000;
+	font-size:  15px;
+	font-weight: bold;
+	font-family: corie;
+	text-decoration: none;
+	padding: 20px;
+
+}
+nav a:hover{
+	background: #CCCCCC;
+	color: #000000;
+
+}
+#slider{
+	margin: auto;
+	border: 5px solid #000000;
+	margin-top: 5px;
+}
+
+#contenido{
+	float: left;
+	width: 600px;
+	background: #B3B3B3;
+	border-radius: 1px;
+	overflow:  hidden;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+#contenido2{
+	float: right;
+	width: 600px;
+	background: #B3B3B3;
+	border-radius: 1px;
+	overflow:  hidden;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+.articulos{
+	margin: 10px;
+}
+
+.articulos h2 {
+	font-size: 20px;
+	padding: 10px;
+	color: #000000;
+	border-bottom: 3px solid #000000;
+	font-family: arial bold; 
+
+}
+
+.articulos img{
+	 float: right;
+	 margin: 5px;
+}
+.articulos p{
+	margin-bottom: 5px;
+	margin-top: 5px;
+	font-family: arial;
+
+
+}
+
+
+footer{
+	height: 40px;
+	background: #000000;
+	color: #FFFFFF;
+	clear: both;
+
+}
+footer p{
+	font-size: 15px;
+	font-family: arial;
+	text-align: center;
+	line-height: 30px;
+
+}
